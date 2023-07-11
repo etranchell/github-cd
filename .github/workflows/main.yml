@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
-          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_api_key: ${{secrets.d0f5c75c-1d2f-4679-9a9f-9188507a1dc7}}
           heroku_app_name: "nameless-harbor-34916"
           heroku_email: "erictranchell@yahoo.com"
